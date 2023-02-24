@@ -1,0 +1,84 @@
+html {
+    background-image: url("/images/poster.jpg");
+    background-size:cover;
+}
+.poster{
+    position: absolute;
+    top: 5%;
+    left: 34%;
+}
+.poster2{
+    position: absolute;
+    top: 15%;
+    left: 5%;
+}
+.poster3{
+    position: absolute;
+    top: 15%;
+    left: 75%;
+}
+.text{
+    position: absolute;
+    top: 66%;
+    left: 24.7%;
+    transform: translate(-50%, -50%);
+    font-size: 45px;
+    letter-spacing: -1px;
+    color: white;
+    font-weight: bold;
+    background: -webkit-linear-gradient(rgb(219, 211, 211), rgb(129, 204, 231));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    line-height:normal;
+    font-family: 'Playfair Display', serif;
+}
+.uptext{
+    position: absolute;
+    top: 4.8%;
+    left: 29.8%;
+    transform: translate(-50%, -50%);
+    font-size: 16px;
+    color: rgb(32, 32, 32);
+    text-transform: uppercase;
+    letter-spacing: 0px;
+    word-spacing: 7px;
+    font-family: Stencil Std, fantasy;
+}
+.intext{
+    color: rgb(195, 192, 192);    
+    position: absolute;
+    top: 60%;
+    left: 33%;
+    transform: translate(-50%, -50%);
+    font-size: 17px;
+    letter-spacing: -1px;
+    word-spacing: 5px;
+    font-weight:bolder;
+    background: -webkit-linear-gradient(rgb(219, 211, 211), rgb(129, 204, 231));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.downtext{
+    color: rgb(195, 192, 192);   
+    position: absolute;
+    top: 68%;
+    left: 1.4%;
+    font-size: 15px;
+    word-spacing: 1px;
+    letter-spacing: -1px;
+}
+.bottomtext{
+  position: absolute;
+  top: 90%;
+  left: 2% ;
+  color: white;
+  letter-spacing: 11px;
+  font-size: 18.7px;
+}
+.intext span {
+	font-size: 30px;
+}
+.downtext span{
+    font-size: 25px;
+}
+  
